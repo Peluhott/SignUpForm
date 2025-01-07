@@ -18,7 +18,11 @@ background-color: lightblue;
 height: 100%;
 flex: 1;
 }
-
+.image1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .right-half {
 background-color: lightgreen;
 height: 100%;
