@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.main_container {
+background-color: grey;
+display: flex;
+
+height: 600px;;
+width: 600px;
+}
+
+.left-half {
+background-color: lightblue;
+height: 100%;
+flex: 1;
+}
+
+.right-half {
+background-color: lightgreen;
+height: 100%;
+flex: 2;
+display: flex;
+flex-direction: column;
+}
+
+.top-section {
+background-color: orange;
+width: 100%;
+flex: 1;
+
+}
+.middle-section {
+    background-color: brown;
+    width: 100%;
+    flex: 1;
+}
+.bottom-section {
+    background-color: purple;
+    width: 100%;
+    flex: 1;
+}
