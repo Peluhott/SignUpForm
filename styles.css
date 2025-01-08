@@ -3,14 +3,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
 
 }
 .main_container {
 background-color: grey;
 display: flex;
+width: 100%;
+aspect-ratio: 16/9;
 
-height: 600px;;
-width: 600px;
 }
 
 .left-half {
@@ -32,18 +33,26 @@ flex-direction: column;
 }
 
 .top-section {
-background-color: orange;
+background-color: lightgrey;
 width: 100%;
-flex: 1;
+flex: 2;
+
 
 }
+
+
+
 .middle-section {
-    background-color: brown;
+    background-color: white;
     width: 100%;
     flex: 1;
 }
 .bottom-section {
-    background-color: purple;
+    background-color: lightgrey;
     width: 100%;
-    flex: 1;
+    flex: 2;
+}
+
+.inner-bottom-content {
+    display: flex;
 }
