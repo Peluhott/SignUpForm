@@ -10,7 +10,7 @@ body {
 background-color: grey;
 display: flex;
 width: 100%;
-aspect-ratio: 16/9;
+aspect-ratio: 916/648;
 
 }
 
@@ -51,8 +51,6 @@ flex: 2;
     background-color: lightgrey;
     width: 100%;
     flex: 2;
+    
 }
 
-.inner-bottom-content {
-    display: flex;
-}
