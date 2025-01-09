@@ -54,3 +54,7 @@ flex: 2;
     
 }
 
+.entries {
+    display: flex;
+    
+}
