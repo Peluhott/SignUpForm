@@ -1,67 +1,71 @@
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: black;
-
+    font-family: 'Roboto', sans-serif;
 }
-.main_container {
-background-color: grey;
-display: flex;
-width: 100%;
-aspect-ratio: 916/648;
 
+.main_container {
+    display: flex;
+    aspect-ratio: 912/648;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    
 }
 
 .left-half {
-
+    position: relative;
+    height: 100%;
+    width: 33%;
     background-image: url(images/leaf.jpg);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-height: 100%;
-flex: 1;
-overflow: hidden;
+    background-position: center;
 }
-.image1 {
-    
-    top: 0;
-    left: 0;
-    height: 100%;
+
+.lefthalf-content {
+    position: absolute;
+    top: 20%;
+    height: 20%;
     width: 100%;
-    object-fit: cover;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: .7;
+    color: white;
+    font-size: 6vh;
 }
 
-
+.image3 {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(1.5);
+    opacity: 1.5;
+}
 .right-half {
-background-color: lightgreen;
-height: 100%;
-flex: 2;
-display: flex;
-flex-direction: column;
+    height: 100%;
+    width: 67%;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-section {
-background-color: lightgrey;
-width: 100%;
-flex: 2;
-
-
+background-color: #f7f7f7;
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
 }
-
-
 
 .middle-section {
-    background-color: white;
-    width: 100%;
-    flex: 1;
-}
-.bottom-section {
-    background-color: lightgrey;
-    width: 100%;
-    flex: 2;
-    
+background-color: white;
+flex: 1;
 }
 
 .entries {
@@ -69,8 +73,12 @@ flex: 2;
     
 }
 
-.entries > div {
+.entries > child {
     display: flex;
     flex-direction: column;
-    
+}
+
+.bottom-section {
+background-color: #f7f7f7;
+flex: 1;
 }
