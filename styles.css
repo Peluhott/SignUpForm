@@ -15,15 +15,25 @@ aspect-ratio: 916/648;
 }
 
 .left-half {
-background-color: lightblue;
+
+    background-image: url(images/leaf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 height: 100%;
 flex: 1;
+overflow: hidden;
 }
 .image1 {
+    
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
+
 .right-half {
 background-color: lightgreen;
 height: 100%;
@@ -56,5 +66,11 @@ flex: 2;
 
 .entries {
     display: flex;
+    
+}
+
+.entries > div {
+    display: flex;
+    flex-direction: column;
     
 }
