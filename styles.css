@@ -84,6 +84,7 @@ justify-content: flex-start;
 .entries1 {
     font-size: 2vw;
 }
+
 input {
     border: 2px solid;
     margin-bottom: 15px;
@@ -99,8 +100,8 @@ input:required {
 }
 
 input:required:placeholder-shown {
-    border-color: black;
-    border: 2px solid;
+    border-color: lightgrey;
+    border: 1px solid;
 }
 input:invalid {
     border: 2px solid red
